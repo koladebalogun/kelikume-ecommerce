@@ -1,14 +1,11 @@
 import styles from "./styles.module.scss";
-import Rating from "@mui/material/Rating";
 import { useState } from "react";
 import { useRouter } from "next/router";
 import Link from "next/link";
 import { TbPlus, TbMinus } from "react-icons/tb";
 import { useEffect } from "react";
 import { BsHandbagFill, BsHeart } from "react-icons/bs";
-import Share from "./share";
 import Accordian from "./Accordian";
-import SimillarSwiper from "./SimillarSwiper";
 import axios from "axios";
 import DialogModal from "../../dialogModal";
 import { useDispatch, useSelector } from "react-redux";
